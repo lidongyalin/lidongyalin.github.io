@@ -1,0 +1,20 @@
+{
+  "name": "perblog",
+  "version": "1.0.0",
+  "author": "lidongyalin",
+  "scripts": {
+    "dev": "vuepress dev docs --open --host \"localhost\"",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1",
+    "vuepress-theme-reco": "^1.6.1",
+    "@vuepress/plugin-medium-zoom": "1.0.0-alpha.0",
+    "vuepress-plugin-flowchart": "1.4.3",
+    "@vuepress/plugin-pwa": "1.0.0-alpha.3"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
+  },
+  "description": "~~~~"
+}
