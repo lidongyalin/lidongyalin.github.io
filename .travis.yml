@@ -1,13 +1,13 @@
 language: node_js
 node_js:
-  - 10
+  - 12.16.3
 install:
-  - npm install # npm ci
+  - yarn install # npm ci
 script:
-  - npm run build # npm run docs:build
+  - yarn build # npm run docs:build
 after_success:
     - ls -a
-    - cd public
+    - cd docs/.vuepress/dist
     - git init
     - git config --global user.name "${U_NAME}"
     - git config --global user.email "${U_EMAIL}"

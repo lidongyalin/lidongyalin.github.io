@@ -3,7 +3,7 @@ const themeConfig = require('./config/theme/')
 module.exports = {
   title: "午后南杂",
   description: 'Enjoy when you can, and endure when you must.',
-  dest: 'public',
+  dest: 'docs/.vuepress/dist',
   base:'/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -14,5 +14,5 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: ['@vuepress/medium-zoom', 'flowchart'] 
-}  
+  plugins: ['@vuepress/medium-zoom', 'flowchart']
+}
