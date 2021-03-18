@@ -11,5 +11,6 @@ after_success:
     - git config --global user.name "${U_NAME}"
     - git config --global user.email "${U_EMAIL}"
     - git add -A
+    - ls
     - git commit -m 'deploy'
     - git push --quiet --force "https://${GITHUB_TOKEN}@github.com/lidongyalin/lidongyalin.github.io.git" master:main
