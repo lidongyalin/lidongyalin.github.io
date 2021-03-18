@@ -4,7 +4,7 @@ module.exports = {
   title: "午后南杂",
   description: 'Enjoy when you can, and endure when you must.',
   dest: 'public',
-  base:'/perblog/',
+  base:'/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
