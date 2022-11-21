@@ -16,7 +16,8 @@ module.exports = {
   // 作者
   author: 'reco_luan',
   // 备案号
-  record: '湘ICP备20014689号-1',
+  cyberSecurityRecord: '湘ICP备20014689号-1',
+  cyberSecurityLink: "https://beian.miit.gov.cn/",
   // 项目开始时间
   startYear: '2022'
 }
