@@ -2,7 +2,7 @@ const themeConfig = require('./config/theme/')
 
 module.exports = {
   title: "白梦泽",
-  description: 'Enjoy when you can, and endure when you must.',
+  description: '与其感慨路难行 不如马上触发',
   dest: 'docs/.vuepress/dist',
   base:'/',
   head: [

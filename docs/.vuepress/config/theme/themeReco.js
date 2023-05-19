@@ -14,7 +14,7 @@ module.exports = {
   // 最后更新时间
   lastUpdated: 'Last Updated', // string | boolean
   // 作者
-  author: 'reco_luan',
+  author: '霒蚀君',
   // 备案号
   cyberSecurityRecord: '湘ICP备20014689号-1',
   cyberSecurityLink: "https://beian.miit.gov.cn/",
