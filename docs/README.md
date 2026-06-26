@@ -1,27 +1,43 @@
 ---
 home: true
-bgImage: '/banner.jpg'
-bgImageStyle: {
-  height: '450px'
-}
-faceImage: '/head.png'
-heroImage: /hero_write.png
-heroImageStyle: {
-  maxHeight: '200px',
-  display: block,
-  margin: '6rem auto 1.5rem',
-  borderRadius: '50%',
-  boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
-}
-isShowTitleInHome: false
-actionText: About Me
-actionLink: /views/personalInfo/
-features:
-- title: Who am I？
-  details: A programmer? A human being? Or a matter combination?
-- title: Where am I？
-  details: In a city? On earth? Or in a small part of space?
-- title: What am I gona do？
-  details: Work? Struggle? Or go to a destination I don't know?
-# footer: 'reco_luan'
+layout: Blog
+icon: home
+title: 首页
+heroImage: /head.png
+heroText: 白梦泽
+tagline: 与其感慨路难行 不如马上出发
+bgImage: /banner.jpg
+heroFullScreen: false
+projects:
+  - icon: book
+    name: 个人成长
+    desc: 自我提升与职场进阶
+    link: /category/个人成长/
+
+  - icon: heart
+    name: 情感关系
+    desc: 情感心理与亲密关系
+    link: /category/情感关系/
+
+  - icon: lightbulb
+    name: 科技趋势
+    desc: 人工智能与科技前沿
+    link: /category/科技趋势/
+
+  - icon: gamepad
+    name: 游戏世界
+    desc: 游戏介绍与剧情解析
+    link: /category/游戏/
+
+  - icon: briefcase
+    name: 商业思维
+    desc: 财富认知与商业洞察
+    link: /category/商业思维/
+
+  - icon: leaf
+    name: 健康生活
+    desc: 身心健康与生活方式
+    link: /category/健康生活/
+
+footer: 白梦泽 | 湘ICP备20014689号-1
 ---

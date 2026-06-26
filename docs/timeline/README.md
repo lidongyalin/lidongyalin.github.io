@@ -1,7 +1,7 @@
 ---
-isTimeLine: true
+layout: Timeline
+icon: clock
+title: 时间线
+article: false
 sidebar: false
-isComment: false
 ---
-
-## Time Line
