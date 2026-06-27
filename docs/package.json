@@ -1,0 +1,13 @@
+{
+  "name": "baimengze-blog",
+  "version": "1.0.0",
+  "description": "白梦泽博客",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.17"
+  }
+}
