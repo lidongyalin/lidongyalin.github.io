@@ -1,68 +1,31 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import { recoTheme } from "vuepress-theme-reco";
 import { navbar } from "./navbar.js";
 
-export default hopeTheme({
-  hostname: "https://lidongyalin.github.io",
-  author: {
-    name: "霒蚀君",
-    url: "https://github.com/lidongyalin",
-  },
+export default recoTheme({
+  colorMode: "light",
+  colorModeSwitch: true,
   logo: "/head.png",
   repo: "lidongyalin/lidongyalin.github.io",
+  docsRepo: "lidongyalin/lidongyalin.github.io",
   docsDir: "docs",
   docsBranch: "docs",
-  breadcrumb: true,
-  footer: "白梦泽",
-  displayFooter: true,
-  copyright: "湘ICP备20014689号-1",
+  editLink: true,
+  editLinkText: "在 GitHub 上编辑此页",
+  lastUpdated: true,
+  author: "霒蚀君",
+  authorAvatar: "/head.png",
   navbar,
-  sidebar: false,
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
-  markdown: {
-    align: true,
-    attrs: true,
-    component: true,
-    figure: true,
-    imgLazyload: true,
-    imgSize: true,
-    include: true,
-    mark: true,
-    obsidianImgSize: true,
-    spoiler: true,
-    tasklist: true,
-    vPre: true,
-    stylize: [
-      {
-        matcher: "Recommended",
-        replacer: ({ tag }) => {
-          if (tag === "em")
-            return {
-              tag: "Badge",
-              attrs: { type: "tip" },
-              content: "Recommended",
-            };
-        },
-      },
-    ],
-  },
-  plugins: {
-    blog: true,
-    comment: false,
-    components: {
-      components: ["Badge", "BiliBili", "PDF", "VidStack"],
+  series: {},
+  autoSetBlogCategories: true,
+  autoAddCategoryToNavbar: false,
+  catalogTitle: "目录",
+  categoriesText: "分类",
+  tagsText: "标签",
+  socialLinks: [
+    {
+      icon: "github",
+      link: "https://github.com/lidongyalin",
     },
-    copyright: true,
-    feed: false,
-    git: false,
-    icon: {
-      assets: "fontawesome-with-brands",
-    },
-    photoSwipe: false,
-    pwa: false,
-    seo: true,
-    sitemap: true,
-  },
+  ],
+  primaryColor: "#3eaf7c",
 });
