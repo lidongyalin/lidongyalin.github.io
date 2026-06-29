@@ -1,5 +1,5 @@
 module.exports = {
-  title: "白梦泽",
+  title: "云梦泽",
   description: "与其感慨路难行 不如马上出发",
   head: [
     ["link", { rel: "icon", href: "/head.png" }],

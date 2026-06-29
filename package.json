@@ -2,7 +2,7 @@
   "name": "perblog",
   "version": "2.0.0",
   "author": "lidongyalin",
-  "description": "白梦泽博客",
+  "description": "云梦泽博客",
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
