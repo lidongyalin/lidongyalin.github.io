@@ -9,32 +9,32 @@ projects:
   - icon: book
     name: 个人成长
     desc: 自我提升与职场进阶
-    link: /views/growth/
+    link: /categories/growth/1.html
 
   - icon: heart
     name: 情感关系
     desc: 情感心理与亲密关系
-    link: /views/emotion/
+    link: /categories/emotion/1.html
 
   - icon: lightbulb
     name: 科技趋势
     desc: 人工智能与科技前沿
-    link: /views/tech/
+    link: /categories/tech/1.html
 
   - icon: gamepad
     name: 游戏世界
     desc: 游戏介绍与剧情解析
-    link: /views/game/
+    link: /categories/game/1.html
 
   - icon: briefcase
     name: 商业思维
     desc: 财富认知与商业洞察
-    link: /views/business/
+    link: /categories/business/1.html
 
   - icon: leaf
     name: 健康生活
     desc: 身心健康与生活方式
-    link: /views/health/
+    link: /categories/health/1.html
 
 footer: 白梦泽 | 湘ICP备20014689号-1
 ---
