@@ -3,19 +3,15 @@
   "version": "2.0.0",
   "author": "lidongyalin",
   "description": "白梦泽博客",
-  "type": "module",
   "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "clean": "vuepress dev docs --clean-cache"
+    "build": "vuepress build docs"
   },
   "dependencies": {
-    "vuepress": "2.0.0-rc.19",
-    "vuepress-theme-reco": "2.0.0-rc.26",
-    "sass-embedded": "^1.77.0",
-    "katex": "^0.16.0"
+    "vuepress": "1.9.10",
+    "vuepress-theme-reco": "1.6.17"
   },
-  "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.19"
-  }
+  "devDependencies": {}
 }
